@@ -61,7 +61,7 @@ The Jupyter notebook uses x-ray images of paediatric patients to identify whethe
 
 **IMPORTANT NOTE:**
 
-The source images used by the Jupyter notebook have not been included in this GitHub repository and will need to be downloaded and stored in a folder entitled `chest_xray` within the local repository using the folder structure below for the code to run correctly.
+The source images used by the Jupyter notebook have not been included in this GitHub repository and will need to be downloaded and stored in a folder entitled `chest_xray` within the local repository using the folder structure below for the code to run correctly:
 
 ```
 └── chest_xray
@@ -83,6 +83,7 @@ The source images used by the Jupyter notebook have not been included in this Gi
     └── val                 
         # Raw "validation" set of x-ray images of paediatric patients organised into two
         subfolders of normal and pneumonia images.
+
         ├── NORMAL
         └── PNEUMONIA     
 ```
