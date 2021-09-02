@@ -60,28 +60,29 @@ The model might also have application in locations where experienced doctors or 
 The Jupyter notebook uses x-ray images of paediatric patients to identify whether or not they have pneumonia. The dataset comes from Kermany et al. on <a href="https://data.mendeley.com/datasets/rscbjbr9sj/3" target="_new">Mendeley</a> but, for ease of use, we are using a version of the dataset from <a href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia" target="_new">Kaggle</a> which has already been organised into train, test and val subsets.
 
 **IMPORTANT NOTE:**
+
 The source images used by the Jupyter notebook have not been included in this GitHub repository and will need to be downloaded and stored in a folder entitled `chest_xray` within the local repository using the folder structure below for the code to run correctly.
 
 ```
 └── chest_xray
 
     ├── test                 
-        # Raw "test" set of x-ray images of paediatric patients organised into two subfolders 
-        of normal and pneumonia.
+        # Raw "test" set of x-ray images of paediatric patients organised into two
+        subfolders of normal and pneumonia images.
         
         ├── NORMAL
         └── PNEUMONIA
 
     ├── train
-        # Raw "training" set of x-ray images of paediatric patients organised into two subfolders 
-        f normal and pneumonia.
+        # Raw "training" set of x-ray images of paediatric patients organised into two
+        subfolders of normal and pneumonia images.
 
         ├── NORMAL
         └── PNEUMONIA          
 
     └── val                 
-        # Raw "validation" set of x-ray images of paediatric patients organised into two subfolders 
-        of normal and pneumonia.
+        # Raw "validation" set of x-ray images of paediatric patients organised into two
+        subfolders of normal and pneumonia images.
         ├── NORMAL
         └── PNEUMONIA     
 ```
