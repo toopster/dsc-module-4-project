@@ -66,19 +66,22 @@ The source images used by the Jupyter notebook have not been included in this Gi
 └── chest_xray
 
     ├── test                 
-        # Raw "test" set of x-ray images of paediatric patients organised into two subfolders of normal and pneumonia.
+        # Raw "test" set of x-ray images of paediatric patients organised into two subfolders 
+        of normal and pneumonia.
         
         ├── NORMAL
         └── PNEUMONIA
 
     ├── train
-        # Raw "training" set of x-ray images of paediatric patients organised into two subfolders of normal and pneumonia.
+        # Raw "training" set of x-ray images of paediatric patients organised into two subfolders 
+        f normal and pneumonia.
 
         ├── NORMAL
         └── PNEUMONIA          
 
     └── val                 
-        # Raw "validation" set of x-ray images of paediatric patients organised into two subfolders of normal and pneumonia.
+        # Raw "validation" set of x-ray images of paediatric patients organised into two subfolders 
+        of normal and pneumonia.
         ├── NORMAL
         └── PNEUMONIA     
 ```
@@ -87,8 +90,9 @@ The source images used by the Jupyter notebook have not been included in this Gi
 
 ```
 index.ipynb             
-# Jupyter notebook containing code for data discovery, EDA and a number of deep learning image classifier 
-models, with improving accuracy, that aim to predict whether an unseen x-ray image has pneumonia or not.
+# Jupyter notebook containing code for data discovery, EDA and a number of deep learning
+image classifier models, with improving accuracy, that aim to predict whether an unseen 
+paediatric x-ray image has pneumonia or not.
 
 presentation.pdf        
 # A non-technical presentation of the project findings.
