@@ -104,6 +104,15 @@ presentation.pdf
 
 ## Approach
 
+As outlined in the [Jupyter Notebook](index.ipynb) included in this repository, the approach constituted four main parts:
+
+1. The **[Business Case and Project Purpose](index.pynb#business-case)**.
+
+2. Initial **[Exploratory Data Analysis](index.pynb#eda)**.
+
+3. **[Deep Learning Neural Network Models](index.ipynb#deep-learning-neural-networks)**.
+
+4. **[Model Performance Evaluation]**
 
 ## Conclusions
 
