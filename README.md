@@ -2,7 +2,7 @@
 
 ## Business Case and Project Purpose
 
-#### What is Pneumonia?
+### What is Pneumonia?
 Pneumonia is an acute respiratory infection affecting the tiny air sacs in the lungs, called alveoli. When a patient has pneumonia, these air sacs get swollen (inflamed) and fill with fluid making it harder for them to breathe, even painful, and limits oxygen intake.
 
 ![Diagram of the Lungs](images/diagram_lungs_pulmonary_fibrosis.png)
@@ -17,7 +17,8 @@ More people get pneumonia in winter. This is because respiratory viral infection
 
 **According to the <a href="https://www.who.int/health-topics/pneumonia#tab=tab_1" target="_new">World Health Organisation</a>, pneumonia is the single largest infectious cause of death in children worldwide.**
 
-#### What causes Pneumonia?
+
+### What causes Pneumonia?
 
 Many kinds of bacteria and viruses can cause pneumonia including coronavirus (COVID-19).
 
@@ -32,13 +33,15 @@ Other types include:
 
 There are two types of vaccine available for pneumonia. They protect against the most common cause of pneumonia, the bacterium Streptococcus pneumoniae.
 
-#### Diagnosing Pneumonia
+
+### Diagnosing Pneumonia
 
 Community-acquired pneumonia can be difficult to diagnose because it shares many symptoms with other conditions, such as the common cold, bronchitis and asthma.
 
 A doctor may be able to diagnose pneumonia by asking about the patient's symptoms and examining their chest but a chest X-ray is often required to confirm the presence of pneumonia.
 
 The clinical judgement of health professionals in diagnosing pneumonia in primary care has been studied. One study demonstrated that GPs’ clinical judgement had a negative predictive value (correctly ruling out pneumonia) of 96%, but a sensitivity (diagnosis after history and physical examination) of only 29%; meaning 71% of pneumonias evident on X-ray had not been suspected clinically (Van Vugt et al, 2013). The study highlighted that health professionals needed additional support to be able to consistently detect pneumonia in primary care.
+
 
 ### Brief
 
