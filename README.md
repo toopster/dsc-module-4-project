@@ -139,6 +139,7 @@ The following python libraries have been used as part of this project:
 * [Pandas](https://pandas.pydata.org/)
 * [NumPy](https://numpy.org/)
 * [Matplotlib](https://matplotlib.org/)
+* [Seaborn](https://seaborn.pydata.org/)
 * [os](https://docs.python.org/3/library/os.html)
 * [time](https://docs.python.org/3/library/time.html)
 * [keras](https://keras.io/)
