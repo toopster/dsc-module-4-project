@@ -96,7 +96,7 @@ index.ipynb
 image classifier models, with improving accuracy, that aim to predict whether an unseen 
 paediatric x-ray image has pneumonia or not.
 
-presentation.pdf        
+[presentation.pdf](presentation.pdf)
 # A non-technical presentation of the project findings.
 
 └── images
