@@ -59,6 +59,8 @@ The model might also have application in locations where experienced doctors or 
 
 The Jupyter notebook uses x-ray images of paediatric patients to identify whether or not they have pneumonia. The dataset comes from Kermany et al. on <a href="https://data.mendeley.com/datasets/rscbjbr9sj/3" target="_new">Mendeley</a> but, for ease of use, we are using a version of the dataset from <a href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia" target="_new">Kaggle</a> which has already been organised into train, test and val subsets.
 
+![Percentage of images by dataset and condition](images/images_class_imbalance.png)
+
 **IMPORTANT NOTE:**
 
 The source images used by the Jupyter notebook have not been included in this GitHub repository and will need to be downloaded and stored in a folder entitled `chest_xray` within the local repository using the folder structure below for the code to run correctly:
@@ -105,6 +107,7 @@ presentation.pdf
 
 └── images
     ├── diagram_lungs_pulmonary_fibrosis.png
+    ├── image_class_imbalance.png
     ├── kaggle_dataset.png
     └── who_pneumonia_stats.png
 
