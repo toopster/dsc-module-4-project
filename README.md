@@ -59,7 +59,7 @@ The model might also have application in locations where experienced doctors or 
 
 The Jupyter notebook uses x-ray images of paediatric patients to identify whether or not they have pneumonia. The dataset comes from Kermany et al. on <a href="https://data.mendeley.com/datasets/rscbjbr9sj/3" target="_new">Mendeley</a> but, for ease of use, we are using a version of the dataset from <a href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia" target="_new">Kaggle</a> which has already been organised into train, test and val subsets.
 
-![Percentage of images by dataset and condition](images/images_class_imbalance.png)
+![Percentage of images by dataset and condition](images/image_class_imbalance.png)
 
 **IMPORTANT NOTE:**
 
