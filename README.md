@@ -116,7 +116,7 @@ As outlined in the [Jupyter Notebook](index.ipynb) included in this repository, 
 
 1. The **[Business Case and Project Purpose](index.pynb#business-case)**.
 
-2. Initial **[Exploratory Data Analysis](index.pynb#eda)** to review, quantify and validate the image data available in both the `train`, `test` and `val` folders.  This section also includes some steps to prepare the data for modelling such as rescaling RGB values and resizing images to 128px x 128px.
+2. Initial **[Exploratory Data Analysis](index.pynb#eda)** to review, quantify and validate the image data available in each of the `train`, `test` and `val` folders.  This section also includes some steps to prepare the data for modelling such as rescaling RGB values and resizing images to 128px x 128px.
 
 3. The creation, refinement through iteration, validation and evaluation of **[Deep Learning Neural Network Models](index.ipynb#deep-learning-neural-networks)** that can classify whether a given paediatric patient has pneumonia, given a chest x-ray image.
 
