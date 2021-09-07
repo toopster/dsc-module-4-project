@@ -109,6 +109,9 @@ presentation.pdf
     └── who_pneumonia_stats.png
 
 ```
+## Presentation
+
+The presentation associated with this project can be found [here](presentation.pdf) within the repository.
 
 ## Approach
 
