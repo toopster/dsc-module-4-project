@@ -96,10 +96,18 @@ index.ipynb
 image classifier models, with improving accuracy, that aim to predict whether an unseen 
 paediatric x-ray image has pneumonia or not.
 
-[presentation.pdf](presentation.pdf)
+notebook.pdf
+# A PDF version of the Jupyter notebook abov.
+
+presentation.pdf
 # A non-technical presentation of the project findings.
 
+
 └── images
+    ├── diagram_lungs_pulmonary_fibrosis.png
+    ├── kaggle_dataset.png
+    └── who_pneumonia_stats.png
+
 ```
 
 ## Approach
@@ -108,14 +116,21 @@ As outlined in the [Jupyter Notebook](index.ipynb) included in this repository, 
 
 1. The **[Business Case and Project Purpose](index.pynb#business-case)**.
 
-2. Initial **[Exploratory Data Analysis](index.pynb#eda)**.
+2. Initial **[Exploratory Data Analysis](index.pynb#eda)** to review, quantify and validate the image data available in both the `train`, `test` and `val` folders.  This section also includes some steps to prepare the data for modelling such as rescaling RGB values and resizing images to 128px x 128px.
 
-3. **[Deep Learning Neural Network Models](index.ipynb#deep-learning-neural-networks)**.
+3. The creation, refinement through iteration, validation and evaluation of **[Deep Learning Neural Network Models](index.ipynb#deep-learning-neural-networks)** that can classify whether a given paediatric patient has pneumonia, given a chest x-ray image.
 
-4. **[Model Performance Evaluation]**
+4. **[Final Model Performance Evaluation](index.ipynb#final-model-performance-evaluation)**.
 
 ## Conclusions
 
+The [Jupyter Notebook](index.ipynb#deep-learning-neural-networks) contains the details of each model using different parameters and structures to improve the overall accuracy of predicted values against unseen data.
+
+Initial models did not generalise well and tended to overfit the training data. Subsequent changes to parameters had little or no effect with significant fluctuations in accuracy against validation data observed.
+
+Augmentation of the training data by flipping the x-ray images vertically struck a better balance between training and validation accuracy.
+
+The final model using a Convolutional Neural Network and data augmentation produced the best results classifying 85% of the “unseen” chest x-ray images, but there is a significant resource overhead when using, taking over an hour to train the model.
 
 ## Requisite Python Libraries
 
